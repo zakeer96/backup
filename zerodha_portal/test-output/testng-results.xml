@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-19T22:13:37 IST" name="Suitezerodha" finished-at="2021-10-19T22:16:05 IST" duration-ms="147978">
+    <groups>
+    </groups>
+    <test started-at="2021-10-19T22:13:37 IST" name="chromeTest" finished-at="2021-10-19T22:14:10 IST" duration-ms="33198">
+      <class name="test_package.Login_testNG">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:test_package.Login_testNG@2ed2d9cb]" started-at="2021-10-19T22:13:48 IST" name="beforeTest" finished-at="2021-10-19T22:13:57 IST" duration-ms="8614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beroreclass()[pri:0, instance:test_package.Login_testNG@2ed2d9cb]" started-at="2021-10-19T22:14:07 IST" name="beroreclass" finished-at="2021-10-19T22:14:07 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beroreclass -->
+        <test-method signature="logintest()[pri:0, instance:test_package.Login_testNG@2ed2d9cb]" started-at="2021-10-19T22:14:07 IST" name="logintest" finished-at="2021-10-19T22:14:10 IST" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test_package.Login_testNG@2ed2d9cb]" started-at="2021-10-19T22:14:10 IST" name="afterclass" finished-at="2021-10-19T22:14:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test_package.Login_testNG -->
+      <class name="test_package.Home_testNG">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:test_package.Home_testNG@306e95ec]" started-at="2021-10-19T22:13:37 IST" name="beforeTest" finished-at="2021-10-19T22:13:48 IST" duration-ms="11012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:test_package.Home_testNG@306e95ec]" started-at="2021-10-19T22:13:57 IST" name="beforemethod" finished-at="2021-10-19T22:13:57 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ordertab()[pri:0, instance:test_package.Home_testNG@306e95ec]" started-at="2021-10-19T22:13:57 IST" name="ordertab" finished-at="2021-10-19T22:14:07 IST" duration-ms="9878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordertab -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:test_package.Home_testNG@306e95ec]" started-at="2021-10-19T22:14:07 IST" name="aftermethod" finished-at="2021-10-19T22:14:07 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- test_package.Home_testNG -->
+    </test> <!-- chromeTest -->
+    <test started-at="2021-10-19T22:14:11 IST" name="firefoxTest" finished-at="2021-10-19T22:16:05 IST" duration-ms="114289">
+      <class name="test_package.Login_testNG">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:test_package.Login_testNG@6bd61f98]" started-at="2021-10-19T22:14:52 IST" name="beforeTest" finished-at="2021-10-19T22:15:13 IST" duration-ms="21330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beroreclass()[pri:0, instance:test_package.Login_testNG@6bd61f98]" started-at="2021-10-19T22:15:37 IST" name="beroreclass" finished-at="2021-10-19T22:15:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beroreclass -->
+        <test-method signature="logintest()[pri:0, instance:test_package.Login_testNG@6bd61f98]" started-at="2021-10-19T22:15:37 IST" name="logintest" finished-at="2021-10-19T22:16:05 IST" duration-ms="27830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test_package.Login_testNG@6bd61f98]" started-at="2021-10-19T22:16:05 IST" name="afterclass" finished-at="2021-10-19T22:16:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test_package.Login_testNG -->
+      <class name="test_package.Home_testNG">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:test_package.Home_testNG@4efac082]" started-at="2021-10-19T22:14:11 IST" name="beforeTest" finished-at="2021-10-19T22:14:52 IST" duration-ms="41240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:test_package.Home_testNG@4efac082]" started-at="2021-10-19T22:15:13 IST" name="beforemethod" finished-at="2021-10-19T22:15:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ordertab()[pri:0, instance:test_package.Home_testNG@4efac082]" started-at="2021-10-19T22:15:13 IST" name="ordertab" finished-at="2021-10-19T22:15:37 IST" duration-ms="23834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordertab -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:test_package.Home_testNG@4efac082]" started-at="2021-10-19T22:15:37 IST" name="aftermethod" finished-at="2021-10-19T22:15:37 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- test_package.Home_testNG -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suitezerodha -->
+</testng-results>

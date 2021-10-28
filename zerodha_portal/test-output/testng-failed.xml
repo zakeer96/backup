@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suitezerodha]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test_package.Login_testNG">
+        <methods>
+          <include name="beroreclass"/>
+          <include name="logintest"/>
+          <include name="afterclass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test_package.Login_testNG -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suitezerodha] -->
